@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bookworld</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>BOOKWORLD</h1>
+    </div>
+    <div class="container">
+     <div class="book-container">
+        <h2>Rich dad poor dad</h2>
+        <h5>Robert</h5><br>
+        <p>It advocates the importance of financial literacy, financial independence and building wealth through investing in assets, real estate investing, starting and owning businesses, as well as increasing one's financial intelligence. </p>
+        <button onclick="deletebook(event)">Delete</button>
+    </div>
+ </div>
+ <div class="popup-overlay">
+
+ </div>
+ <div class="popup-box">
+    <h2>Add Book</h2>
+    <form>
+        <input type="text" placeholder="book title" id="book-title-input">
+        <input type="text" placeholder="book author" id="book-author-input">
+        <textarea placeholder="short description" id="book-description-input"></textarea>
+        <button id="add-book">ADD</button>
+        <button id="cancel-popup">CANCEL</button>
+        </form>
+ </div>
+<button class="add-button" id="add-popup-button">+</button>
+
+ 
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
